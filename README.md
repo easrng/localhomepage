@@ -1,17 +1,15 @@
 # LocalHomepage
 
-LocalHomepage is a simple network directory site to help people find and navigate services on a network. To use it yourself, fork the repo and add your own services in `src/main.js`.
+LocalHomepage is a simple network directory site to help people find and navigate services on a network. To use it yourself, fork the repo and add your own services in `index.html`.
 
 ## Usage
 
 ```bash
-npm install
-npm run dev
+python3 -m http.server
 ```
 
 ## Building and running in production mode
 
 ```bash
-npm run build
-npm run start
+echo "It's already done. No build needed."
 ```
